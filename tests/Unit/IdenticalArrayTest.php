@@ -4,12 +4,12 @@ namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-class UnitTest1 extends TestCase
+class IdenticalArrayTest extends TestCase
 {
     /**
-     * A basic unit test example.
+     * A basic unit test to test if some fields of two arrays are the same.
      */
-    public function test_example(): void
+    public function test_array_list(): void
     {
         $this->assertArrayIsIdenticalToArrayOnlyConsideringListOfKeys(
             [
